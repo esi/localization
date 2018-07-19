@@ -1,0 +1,165 @@
+# ESI error responses
+
+[ErrorBanned]
+# ErrorBanned is returned for IP Banned requests
+de = ""
+en-us = """
+You have been banned from using ESI. Please come chat \
+with us in #esi on tweetfleet slack and we can work to avoid this \
+situation in the future. If you're not on tweetfleet slack yet, you can \
+get an invite here -> https://www.fuzzwork.co.uk/tweetfleet-slack-invites/"""
+fr = ""
+ja = ""
+ru = ""
+zh = ""
+
+[ErrorLimited]
+# ErrorLimited is returned for error rate limited requests
+de = ""
+en-us = """
+This software has exceeded the error limit for ESI. If \
+you are a user, please contact the maintainer of this software. If \
+you are a developer/maintainer, please make a greater effort in the \
+future to receive valid responses. For tips on how, come have a chat \
+with us in #esi on tweetfleet slack. If you're not on tweetfleet \
+slack yet, you can get an invite here -> \
+https://www.fuzzwork.co.uk/tweetfleet-slack-invites/"""
+fr = ""
+ja = ""
+ru = ""
+zh = ""
+
+[ErrorWrite]
+# ErrorWrite is used if we fail to write the response body
+de = ""
+en-us = "failed to write response"
+fr = ""
+ja = ""
+ru = ""
+zh = ""
+
+[ErrorTimeout]
+# ErrorTimeout is returned when the endpoint fails to respond
+de = ""
+en-us = "timeout contacting endpoint"
+fr = ""
+ja = ""
+ru = ""
+zh = ""
+
+[ErrorNoAuth]
+# ErrorNoAuth is used for 401 responses
+de = ""
+en-us = "authorization not provided"
+fr = ""
+ja = ""
+ru = ""
+zh = ""
+
+[ErrorAuth]
+# ErrorAuth is used in SSO communication failures
+de = ""
+en-us = "authentication failure"
+fr = ""
+ja = ""
+ru = ""
+zh = ""
+
+[ErrorDatasource]
+# ErrorDatasource is used when an unknown datasource is requested
+de = ""
+en-us = "unknown datasource requested"
+fr = ""
+ja = ""
+ru = ""
+zh = ""
+
+[ErrorSSOJSON]
+# ErrorSSOJSON is used in the edge case where SSO returns non-JSON
+de = ""
+en-us = "SSO JSON failure"
+fr = ""
+ja = ""
+ru = ""
+zh = ""
+
+[ErrorRead]
+# ErrorRead is used if we fail to read the incoming request body
+de = ""
+en-us = "failed to read request body"
+fr = ""
+ja = ""
+ru = ""
+zh = ""
+
+[ErrorCreate]
+# ErrorCreate is used if we fail to create a proxy request
+de = ""
+en-us = "failed to create http request"
+fr = ""
+ja = ""
+ru = ""
+zh = ""
+
+[ErrorProxy]
+# ErrorProxy is the catch-all error returned for unknown proxy failures
+de = ""
+en-us = "failed to proxy request"
+fr = ""
+ja = ""
+ru = ""
+zh = ""
+
+[ErrorReadResponse]
+# ErrorReadResponse is used if we fail to read the proxy response body
+de = ""
+en-us = "failed to read proxy body"
+fr = ""
+ja = ""
+ru = ""
+zh = ""
+
+[ErrorNotFound]
+# ErrorNotFound is the generic 404 response text
+de = ""
+en-us = "Not found"
+fr = ""
+ja = ""
+ru = ""
+zh = ""
+
+[ErrorESIJSON]
+# ErrorESIJSON is used if we fail to dump the meta swagger spec
+de = ""
+en-us = "internal JSON error"
+fr = ""
+ja = ""
+ru = ""
+zh = ""
+
+[ErrorHeaderParse]
+# ErrorHeaderParse is if we need to and fail to parse a Location header
+de = ""
+en-us = "failed to parse header"
+fr = ""
+ja = ""
+ru = ""
+zh = ""
+
+[ErrorMethod]
+# ErrorMethod is the generic 405 error text
+de = ""
+en-us = "method not allowed"
+fr = ""
+ja = ""
+ru = ""
+zh = ""
+
+[ErrorTokenID]
+# ErrorTokenID is used if SSO fails to respond with a character ID
+de = ""
+en-us = "SSO response does not contain a character ID"
+fr = ""
+ja = ""
+ru = ""
+zh = ""
