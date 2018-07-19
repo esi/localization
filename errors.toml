@@ -1,8 +1,10 @@
-# ESI error responses
-
 [ErrorBanned]
 # ErrorBanned is returned for IP Banned requests
-de = ""
+de = """
+Sie wurden von der Nutzung des ESI gebannt. Bitte chatten \
+Sie mit uns in #esi im tweetfleet slack und wir können daran arbeiten diese Situation \
+in der Zukunft zu vermeiden. Wenn Sie noch nicht auf dem tweetfleet slack sind, können Sie \
+hier eine Einladung dazu erhalten -> https://www.fuzzwork.co.uk/tweetfleet-slack-invites/"""
 en-us = """
 You have been banned from using ESI. Please come chat \
 with us in #esi on tweetfleet slack and we can work to avoid this \
@@ -10,12 +12,23 @@ situation in the future. If you're not on tweetfleet slack yet, you can \
 get an invite here -> https://www.fuzzwork.co.uk/tweetfleet-slack-invites/"""
 fr = ""
 ja = ""
-ru = ""
+ru = """
+Вы были заблокированы за использование ESI. Пожалуйста, обратитесь в чат #esi \
+в нашем слак-чате #tweetfleet чтобы избежать этой ситуации в будущем. \
+Если вы не присутствуете в чате, то можете получить приглашение \
+здесь - https://www.fuzzwork.co.uk/tweetfleet-slack-invites/"""
 zh = ""
 
 [ErrorLimited]
 # ErrorLimited is returned for error rate limited requests
-de = ""
+de = """
+Diese Software hat das Fehler-Limit für den ESI überschritten. Wenn \
+Sie ein Nutzer sind, kontaktieren Sie bitte den Erhalter dieser Software. Wenn \
+Sie ein Entwickler/Erhalter sind, strengen Sie sich bitte in der Zukunft mehr an, \
+um gültige Antworten zu erhalten. Um Tips dazu zu kriegen, chatten Sie \
+mit uns in #esi im tweetfleet Slack. Wenn Sie noch nicht auf dem tweetfleet \
+slack sind, können Sie hier eine Einladung dazu erhalten \
+-> https://www.fuzzwork.co.uk/tweetfleet-slack-invites/"""
 en-us = """
 This software has exceeded the error limit for ESI. If \
 you are a user, please contact the maintainer of this software. If \
@@ -26,140 +39,147 @@ slack yet, you can get an invite here -> \
 https://www.fuzzwork.co.uk/tweetfleet-slack-invites/"""
 fr = ""
 ja = ""
-ru = ""
+ru = """
+Это программное обеспечение превысило лимит ошибок для ESI. Если \
+вы являетесь пользователем, обратитесь к разработчику этого программного обеспечения. Если \
+вы разработчик / поддерживаете ПО, примите меры для получения корректных ответов на запросы. \
+В нашем слак-чате вы можете получить ответы на вопросы. Пожалуйста, обратитесь в чат #esi \
+в нашем слак-чате #tweetfleet чтобы избежать этой ситуации в будущем. \
+Если вы не присутствуете в чате, то можете получить приглашение \
+здесь - https://www.fuzzwork.co.uk/tweetfleet-slack-invites/"""
 zh = ""
 
 [ErrorWrite]
 # ErrorWrite is used if we fail to write the response body
-de = ""
+de = "fehler schreiben der antwort"
 en-us = "failed to write response"
 fr = ""
 ja = ""
-ru = ""
+ru = "Невозможно отобразить ответ"
 zh = ""
 
 [ErrorTimeout]
 # ErrorTimeout is returned when the endpoint fails to respond
-de = ""
+de = "timeout beim kontaktieren des endpunkts"
 en-us = "timeout contacting endpoint"
 fr = ""
 ja = ""
-ru = ""
+ru = "Истечение времени ответа"
 zh = ""
 
 [ErrorNoAuth]
 # ErrorNoAuth is used for 401 responses
-de = ""
+de = "authorisation nicht zur verfügung gestellt"
 en-us = "authorization not provided"
 fr = ""
 ja = ""
-ru = ""
+ru = "Не пройдена авторизация"
 zh = ""
 
 [ErrorAuth]
 # ErrorAuth is used in SSO communication failures
-de = ""
+de = "authentifizierungsfehler"
 en-us = "authentication failure"
 fr = ""
 ja = ""
-ru = ""
+ru = "Ошибка аутентификации"
 zh = ""
 
 [ErrorDatasource]
 # ErrorDatasource is used when an unknown datasource is requested
-de = ""
+de = "unbekannte datenquelle angefordert"
 en-us = "unknown datasource requested"
 fr = ""
 ja = ""
-ru = ""
+ru = "Запрошен неизвестный источник данных"
 zh = ""
 
 [ErrorSSOJSON]
 # ErrorSSOJSON is used in the edge case where SSO returns non-JSON
-de = ""
+de = "SSO JSON fehler"
 en-us = "SSO JSON failure"
 fr = ""
 ja = ""
-ru = ""
+ru = "Ошибка SSO JSON"
 zh = ""
 
 [ErrorRead]
 # ErrorRead is used if we fail to read the incoming request body
-de = ""
+de = "fehler beim lesen des angefragten bodies"
 en-us = "failed to read request body"
 fr = ""
 ja = ""
-ru = ""
+ru = "Ошибка чтения запроса"
 zh = ""
 
 [ErrorCreate]
 # ErrorCreate is used if we fail to create a proxy request
-de = ""
+de = "fehler beim erstellen der http anfrage"
 en-us = "failed to create http request"
 fr = ""
 ja = ""
-ru = ""
+ru = "Ошибка создания запроса http"
 zh = ""
 
 [ErrorProxy]
 # ErrorProxy is the catch-all error returned for unknown proxy failures
-de = ""
+de = "fehler bei proxy anfrage"
 en-us = "failed to proxy request"
 fr = ""
 ja = ""
-ru = ""
+ru = "Ошибка proxy-запроса"
 zh = ""
 
 [ErrorReadResponse]
 # ErrorReadResponse is used if we fail to read the proxy response body
-de = ""
+de = "fehler beim lesen des proxy bodies"
 en-us = "failed to read proxy body"
 fr = ""
 ja = ""
-ru = ""
+ru = "Ошибка чтения proxy-запроса"
 zh = ""
 
 [ErrorNotFound]
 # ErrorNotFound is the generic 404 response text
-de = ""
+de = "nicht gefunden"
 en-us = "Not found"
 fr = ""
 ja = ""
-ru = ""
+ru = "Не обнаружено (ошибка 404)"
 zh = ""
 
 [ErrorESIJSON]
 # ErrorESIJSON is used if we fail to dump the meta swagger spec
-de = ""
+de = "interner JSON fehler"
 en-us = "internal JSON error"
 fr = ""
 ja = ""
-ru = ""
+ru = "Внутрення ошибка JSON"
 zh = ""
 
 [ErrorHeaderParse]
 # ErrorHeaderParse is if we need to and fail to parse a Location header
-de = ""
+de = "fehler beim analysieren des headers"
 en-us = "failed to parse header"
 fr = ""
 ja = ""
-ru = ""
+ru = "Ошибка парсинга заголовка"
 zh = ""
 
 [ErrorMethod]
 # ErrorMethod is the generic 405 error text
-de = ""
+de = "methode nicht erlaubt"
 en-us = "method not allowed"
 fr = ""
 ja = ""
-ru = ""
+ru = "Наприменимый метод (ошибка 405)"
 zh = ""
 
 [ErrorTokenID]
 # ErrorTokenID is used if SSO fails to respond with a character ID
-de = ""
+de = "SSO antwort enthält keine charakter ID"
 en-us = "SSO response does not contain a character ID"
 fr = ""
 ja = ""
-ru = ""
+ru = "Ответ SSO не содержит ID персонажа"
 zh = ""
