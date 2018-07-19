@@ -183,3 +183,48 @@ fr = ""
 ja = ""
 ru = "Ответ SSO не содержит ID персонажа"
 zh = ""
+
+[ErrorTokenTime]
+# ErrorTokenTime is used if we fail to parse the token expiry time
+de = ""
+en-us = "could not parse auth token expiry time"
+fr = ""
+ja = ""
+ru = ""
+zh = ""
+
+[ErrorRequestSSO]
+# ErrorRequestSSO is used for generic SSO request failures (not timeouts)
+de = ""
+en-us = "SSO request error"
+fr = ""
+ja = ""
+ru = ""
+zh = ""
+
+[ErrorCreateSSO]
+# ErrorCreateSSO is used if we fail to create the request for SSO
+de = ""
+en-us = "failed to create SSO http request"
+fr = ""
+ja = ""
+ru = ""
+zh = ""
+
+[ErrorTimeoutSSO]
+# ErrorTimeoutSSO is used for SSO request timeouts
+de = ""
+en-us = "SSO request timeout"
+fr = ""
+ja = ""
+ru = ""
+zh = ""
+
+[ErrorReadSSO]
+# ErrorReadSSO is if we fail to read the SSO response body
+de = ""
+en-us = "failed to read SSO response body"
+fr = ""
+ja = ""
+ru = ""
+zh = ""
