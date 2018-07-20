@@ -13,7 +13,7 @@ get an invite here -> https://www.fuzzwork.co.uk/tweetfleet-slack-invites/"""
 fr = ""
 ja = ""
 ru = """
-Вы были заблокированы за использование ESI. Пожалуйста, обратитесь в чат #esi \
+Вам запрещено использовать ESI. Пожалуйста, обратитесь в чат #esi \
 в нашем слак-чате #tweetfleet чтобы избежать этой ситуации в будущем. \
 Если вы не присутствуете в чате, то можете получить приглашение \
 здесь - https://www.fuzzwork.co.uk/tweetfleet-slack-invites/"""
@@ -55,7 +55,7 @@ de = "fehler schreiben der antwort"
 en-us = "failed to write response"
 fr = ""
 ja = ""
-ru = "Невозможно отобразить ответ"
+ru = "Невозможно записать ответ"
 zh = ""
 
 [ErrorTimeout]
@@ -154,7 +154,7 @@ de = "interner JSON fehler"
 en-us = "internal JSON error"
 fr = ""
 ja = ""
-ru = "Внутрення ошибка JSON"
+ru = "Внутренняя ошибка JSON"
 zh = ""
 
 [ErrorHeaderParse]
@@ -172,7 +172,7 @@ de = "methode nicht erlaubt"
 en-us = "method not allowed"
 fr = ""
 ja = ""
-ru = "Наприменимый метод (ошибка 405)"
+ru = "Неприменимый метод (ошибка 405)"
 zh = ""
 
 [ErrorTokenID]
@@ -190,7 +190,7 @@ de = ""
 en-us = "could not parse auth token expiry time"
 fr = ""
 ja = ""
-ru = ""
+ru = "Не удалось обработать время окончания токена аутентификации"
 zh = ""
 
 [ErrorRequestSSO]
@@ -199,7 +199,7 @@ de = ""
 en-us = "SSO request error"
 fr = ""
 ja = ""
-ru = ""
+ru = "Ошибка запроса SSO"
 zh = ""
 
 [ErrorCreateSSO]
@@ -208,7 +208,7 @@ de = ""
 en-us = "failed to create SSO http request"
 fr = ""
 ja = ""
-ru = ""
+ru = "Не удалось создать http-запрос SSO"
 zh = ""
 
 [ErrorTimeoutSSO]
@@ -217,7 +217,7 @@ de = ""
 en-us = "SSO request timeout"
 fr = ""
 ja = ""
-ru = ""
+ru = "Истечение времени запроса SSO"
 zh = ""
 
 [ErrorReadSSO]
@@ -226,5 +226,5 @@ de = ""
 en-us = "failed to read SSO response body"
 fr = ""
 ja = ""
-ru = ""
+ru = "Ошибка чтения ответа SSO"
 zh = ""
