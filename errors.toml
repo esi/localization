@@ -11,13 +11,18 @@ with us in #esi on tweetfleet slack and we can work to avoid this \
 situation in the future. If you're not on tweetfleet slack yet, you can \
 get an invite here -> https://www.fuzzwork.co.uk/tweetfleet-slack-invites/"""
 fr = ""
-ja = ""
+ja = """
+あなたはESIの利用をBANされています。今後この問題を回避するために \
+tweetfleet slackの#esiチャンネルに参加してください。tweetfleet slackに参加していない場合は、
+このリンクから招待を受ける事が出来ます。 -> https://www.fuzzwork.co.uk/tweetfleet-slack-invites/"""
 ru = """
 Вам запрещено использовать ESI. Пожалуйста, обратитесь в чат #esi \
 в нашем слак-чате #tweetfleet чтобы избежать этой ситуации в будущем. \
 Если вы не присутствуете в чате, то можете получить приглашение \
 здесь - https://www.fuzzwork.co.uk/tweetfleet-slack-invites/"""
-zh = ""
+zh = """
+您已被禁止访问 ESI。 欲知详情以及寻求解封请到位于 slack tweetfleet 团队的 #esi 频道。\
+如您未加入该团队请访问 https://www.fuzzwork.co.uk/tweetfleet-slack-invites/ 以获得邀请。"""
 
 [ErrorLimited]
 # ErrorLimited is returned for error rate limited requests
@@ -38,7 +43,13 @@ with us in #esi on tweetfleet slack. If you're not on tweetfleet \
 slack yet, you can get an invite here -> \
 https://www.fuzzwork.co.uk/tweetfleet-slack-invites/"""
 fr = ""
-ja = ""
+ja = """
+このソフトウェアに対するESIのエラーリミットが超過しています。 \
+あなたが利用者である場合は、このソフトウェアのメンテナンス担当者に連絡をしてください。 \
+あなたが開発者又はメンテナンス担当者の場合は、正当なレスポンスを受信するために改善を行ってください。 \
+改善のためのヒントについては、tweetfleet slackの#esiチャンネルに参加してください。 \
+tweetfleet slackに参加していない場合は、このリンクから招待を受ける事が出来ます。 \
+-> https://www.fuzzwork.co.uk/tweetfleet-slack-invites/"""
 ru = """
 Это программное обеспечение превысило лимит ошибок для ESI. Если \
 вы являетесь пользователем, обратитесь к разработчику этого программного обеспечения. Если \
@@ -47,184 +58,188 @@ ru = """
 в нашем слак-чате #tweetfleet чтобы избежать этой ситуации в будущем. \
 Если вы не присутствуете в чате, то можете получить приглашение \
 здесь - https://www.fuzzwork.co.uk/tweetfleet-slack-invites/"""
-zh = ""
+zh = """
+该软件因出错次数太多暂时被 ESI 屏蔽。如您是该软件用户，请向软件开发者寻求帮助。\
+如您是软件开发者，请使用正确的错误处理方式以避免发生该问题。欲知详情请到位于 slack tweetfleet \
+团队的 #esi 频道。如您未加入该团队请访问 https://www.fuzzwork.co.uk/tweetfleet-slack-invites/ \
+以获得邀请。"""
 
 [ErrorWrite]
 # ErrorWrite is used if we fail to write the response body
 de = "fehler schreiben der antwort"
 en-us = "failed to write response"
 fr = ""
-ja = ""
+ja = "レスポンスの出力に失敗しました"
 ru = "Невозможно записать ответ"
-zh = ""
+zh = "输出返回内容失败"
 
 [ErrorTimeout]
 # ErrorTimeout is returned when the endpoint fails to respond
 de = "timeout beim kontaktieren des endpunkts"
 en-us = "timeout contacting endpoint"
 fr = ""
-ja = ""
+ja = "エンドポイントへの接続がタイムアウトしました"
 ru = "Истечение времени ответа"
-zh = ""
+zh = "联系接口超时"
 
 [ErrorNoAuth]
 # ErrorNoAuth is used for 401 responses
 de = "authorisation nicht zur verfügung gestellt"
 en-us = "authorization not provided"
 fr = ""
-ja = ""
+ja = "認可情報が含まれていません"
 ru = "Не пройдена авторизация"
-zh = ""
+zh = "未提供身份验证信息"
 
 [ErrorAuth]
 # ErrorAuth is used in SSO communication failures
 de = "authentifizierungsfehler"
 en-us = "authentication failure"
 fr = ""
-ja = ""
+ja = "認証に失敗しました"
 ru = "Ошибка аутентификации"
-zh = ""
+zh = "身份验证失败"
 
 [ErrorDatasource]
 # ErrorDatasource is used when an unknown datasource is requested
 de = "unbekannte datenquelle angefordert"
 en-us = "unknown datasource requested"
 fr = ""
-ja = ""
+ja = "不明なデータソースがリクエストされました"
 ru = "Запрошен неизвестный источник данных"
-zh = ""
+zh = "请求了未知数据源"
 
 [ErrorSSOJSON]
 # ErrorSSOJSON is used in the edge case where SSO returns non-JSON
 de = "SSO JSON fehler"
 en-us = "SSO JSON failure"
 fr = ""
-ja = ""
+ja = "SSO JSONエラー"
 ru = "Ошибка SSO JSON"
-zh = ""
+zh = "SSO JSON 错误"
 
 [ErrorRead]
 # ErrorRead is used if we fail to read the incoming request body
 de = "fehler beim lesen des angefragten bodies"
 en-us = "failed to read request body"
 fr = ""
-ja = ""
+ja = "リクエストボディの読み込みに失敗しました"
 ru = "Ошибка чтения запроса"
-zh = ""
+zh = "读取请求正文失败"
 
 [ErrorCreate]
 # ErrorCreate is used if we fail to create a proxy request
 de = "fehler beim erstellen der http anfrage"
 en-us = "failed to create http request"
 fr = ""
-ja = ""
+ja = "httpリクエストの生成に失敗しました"
 ru = "Ошибка создания запроса http"
-zh = ""
+zh = "建立 HTTP 请求失败"
 
 [ErrorProxy]
 # ErrorProxy is the catch-all error returned for unknown proxy failures
 de = "fehler bei proxy anfrage"
 en-us = "failed to proxy request"
 fr = ""
-ja = ""
+ja = "proxyリクエストに失敗しました"
 ru = "Ошибка proxy-запроса"
-zh = ""
+zh = "请求代理失败"
 
 [ErrorReadResponse]
 # ErrorReadResponse is used if we fail to read the proxy response body
 de = "fehler beim lesen des proxy bodies"
 en-us = "failed to read proxy body"
 fr = ""
-ja = ""
+ja = "proxyレスポンスボディの読み込みに失敗しました"
 ru = "Ошибка чтения proxy-запроса"
-zh = ""
+zh = "读取代理返回正文失败"
 
 [ErrorNotFound]
 # ErrorNotFound is the generic 404 response text
 de = "nicht gefunden"
 en-us = "Not found"
 fr = ""
-ja = ""
+ja = "存在しません"
 ru = "Не обнаружено (ошибка 404)"
-zh = ""
+zh = "未找到"
 
 [ErrorESIJSON]
 # ErrorESIJSON is used if we fail to dump the meta swagger spec
 de = "interner JSON fehler"
 en-us = "internal JSON error"
 fr = ""
-ja = ""
+ja = "内部JSONエラー"
 ru = "Внутренняя ошибка JSON"
-zh = ""
+zh = "内部 JSON 错误"
 
 [ErrorHeaderParse]
 # ErrorHeaderParse is if we need to and fail to parse a Location header
 de = "fehler beim analysieren des headers"
 en-us = "failed to parse header"
 fr = ""
-ja = ""
+ja = "ヘッダーのパースに失敗しました"
 ru = "Ошибка парсинга заголовка"
-zh = ""
+zh = "解析请求头失败"
 
 [ErrorMethod]
 # ErrorMethod is the generic 405 error text
 de = "methode nicht erlaubt"
 en-us = "method not allowed"
 fr = ""
-ja = ""
+ja = "このメソッドは許可されていません"
 ru = "Неприменимый метод (ошибка 405)"
-zh = ""
+zh = "方法不被允许"
 
 [ErrorTokenID]
 # ErrorTokenID is used if SSO fails to respond with a character ID
 de = "SSO antwort enthält keine charakter ID"
 en-us = "SSO response does not contain a character ID"
 fr = ""
-ja = ""
+ja = "SSOレスポンスにキャラクターIDが含まれていません"
 ru = "Ответ SSO не содержит ID персонажа"
-zh = ""
+zh = "SSO 返回值不含角色ID"
 
 [ErrorTokenTime]
 # ErrorTokenTime is used if we fail to parse the token expiry time
 de = ""
 en-us = "could not parse auth token expiry time"
 fr = ""
-ja = ""
+ja = "認証トークンの期限時間がパース出来ませんでした"
 ru = "Не удалось обработать время окончания токена аутентификации"
-zh = ""
+zh = "认证令牌失效时间无效"
 
 [ErrorRequestSSO]
 # ErrorRequestSSO is used for generic SSO request failures (not timeouts)
 de = ""
 en-us = "SSO request error"
 fr = ""
-ja = ""
+ja = "SSOリクエストエラー"
 ru = "Ошибка запроса SSO"
-zh = ""
+zh = "SSO 请求错误"
 
 [ErrorCreateSSO]
 # ErrorCreateSSO is used if we fail to create the request for SSO
 de = ""
 en-us = "failed to create SSO http request"
 fr = ""
-ja = ""
+ja = "SSO http requestの生成に失敗しました"
 ru = "Не удалось создать http-запрос SSO"
-zh = ""
+zh = "建立 SSO HTTP 请求失败"
 
 [ErrorTimeoutSSO]
 # ErrorTimeoutSSO is used for SSO request timeouts
 de = ""
 en-us = "SSO request timeout"
 fr = ""
-ja = ""
+ja = "SSOリクエストがタイムアウトしました"
 ru = "Истечение времени запроса SSO"
-zh = ""
+zh = "SSO 请求超时"
 
 [ErrorReadSSO]
 # ErrorReadSSO is if we fail to read the SSO response body
 de = ""
 en-us = "failed to read SSO response body"
 fr = ""
-ja = ""
+ja = "SSOレスポンスボディの読み込みに失敗しました"
 ru = "Ошибка чтения ответа SSO"
-zh = ""
+zh = "读取 SSO 返回内容失败"
