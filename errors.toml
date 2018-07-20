@@ -16,7 +16,7 @@ ja = """
 tweetfleet slackの#esiチャンネルに参加してください。tweetfleet slackに参加していない場合は、
 このリンクから招待を受ける事が出来ます。 -> https://www.fuzzwork.co.uk/tweetfleet-slack-invites/"""
 ru = """
-Вы были заблокированы за использование ESI. Пожалуйста, обратитесь в чат #esi \
+Вам запрещено использовать ESI. Пожалуйста, обратитесь в чат #esi \
 в нашем слак-чате #tweetfleet чтобы избежать этой ситуации в будущем. \
 Если вы не присутствуете в чате, то можете получить приглашение \
 здесь - https://www.fuzzwork.co.uk/tweetfleet-slack-invites/"""
@@ -70,7 +70,7 @@ de = "fehler schreiben der antwort"
 en-us = "failed to write response"
 fr = ""
 ja = "レスポンスの出力に失敗しました"
-ru = "Невозможно отобразить ответ"
+ru = "Невозможно записать ответ"
 zh = "输出返回内容失败"
 
 [ErrorTimeout]
@@ -169,7 +169,7 @@ de = "interner JSON fehler"
 en-us = "internal JSON error"
 fr = ""
 ja = "内部JSONエラー"
-ru = "Внутрення ошибка JSON"
+ru = "Внутренняя ошибка JSON"
 zh = "内部 JSON 错误"
 
 [ErrorHeaderParse]
@@ -187,7 +187,7 @@ de = "methode nicht erlaubt"
 en-us = "method not allowed"
 fr = ""
 ja = "このメソッドは許可されていません"
-ru = "Наприменимый метод (ошибка 405)"
+ru = "Неприменимый метод (ошибка 405)"
 zh = "方法不被允许"
 
 [ErrorTokenID]
@@ -205,7 +205,7 @@ de = ""
 en-us = "could not parse auth token expiry time"
 fr = ""
 ja = "認証トークンの期限時間がパース出来ませんでした"
-ru = ""
+ru = "Не удалось обработать время окончания токена аутентификации"
 zh = "认证令牌失效时间无效"
 
 [ErrorRequestSSO]
@@ -214,7 +214,7 @@ de = ""
 en-us = "SSO request error"
 fr = ""
 ja = "SSOリクエストエラー"
-ru = ""
+ru = "Ошибка запроса SSO"
 zh = "SSO 请求错误"
 
 [ErrorCreateSSO]
@@ -223,7 +223,7 @@ de = ""
 en-us = "failed to create SSO http request"
 fr = ""
 ja = "SSO http requestの生成に失敗しました"
-ru = ""
+ru = "Не удалось создать http-запрос SSO"
 zh = "建立 SSO HTTP 请求失败"
 
 [ErrorTimeoutSSO]
@@ -232,7 +232,7 @@ de = ""
 en-us = "SSO request timeout"
 fr = ""
 ja = "SSOリクエストがタイムアウトしました"
-ru = ""
+ru = "Истечение времени запроса SSO"
 zh = "SSO 请求超时"
 
 [ErrorReadSSO]
@@ -241,5 +241,5 @@ de = ""
 en-us = "failed to read SSO response body"
 fr = ""
 ja = "SSOレスポンスボディの読み込みに失敗しました"
-ru = ""
+ru = "Ошибка чтения ответа SSO"
 zh = "读取 SSO 返回内容失败"
