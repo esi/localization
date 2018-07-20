@@ -210,7 +210,7 @@ zh = "认证令牌失效时间无效"
 
 [ErrorRequestSSO]
 # ErrorRequestSSO is used for generic SSO request failures (not timeouts)
-de = ""
+de = "fehler bei der SSO anfrage"
 en-us = "SSO request error"
 fr = ""
 ja = "SSOリクエストエラー"
@@ -219,7 +219,7 @@ zh = "SSO 请求错误"
 
 [ErrorCreateSSO]
 # ErrorCreateSSO is used if we fail to create the request for SSO
-de = ""
+de = "fehler beim erstellen der SSO http anforderung"
 en-us = "failed to create SSO http request"
 fr = ""
 ja = "SSO http requestの生成に失敗しました"
@@ -228,7 +228,7 @@ zh = "建立 SSO HTTP 请求失败"
 
 [ErrorTimeoutSSO]
 # ErrorTimeoutSSO is used for SSO request timeouts
-de = ""
+de = "timeout der SSO anfrage"
 en-us = "SSO request timeout"
 fr = ""
 ja = "SSOリクエストがタイムアウトしました"
@@ -237,7 +237,7 @@ zh = "SSO 请求超时"
 
 [ErrorReadSSO]
 # ErrorReadSSO is if we fail to read the SSO response body
-de = ""
+de = "fehler beim lesen des SSO antwort-bodies"
 en-us = "failed to read SSO response body"
 fr = ""
 ja = "SSOレスポンスボディの読み込みに失敗しました"
