@@ -17,7 +17,9 @@ ru = """
 в нашем слак-чате #tweetfleet чтобы избежать этой ситуации в будущем. \
 Если вы не присутствуете в чате, то можете получить приглашение \
 здесь - https://www.fuzzwork.co.uk/tweetfleet-slack-invites/"""
-zh = ""
+zh = """
+您已被禁止访问 ESI。 欲知详情以及寻求解封请到位于 slack tweetfleet 团队的 #esi 频道。\
+如您未加入该团队请访问 https://www.fuzzwork.co.uk/tweetfleet-slack-invites/ 以获得邀请。"""
 
 [ErrorLimited]
 # ErrorLimited is returned for error rate limited requests
@@ -47,7 +49,11 @@ ru = """
 в нашем слак-чате #tweetfleet чтобы избежать этой ситуации в будущем. \
 Если вы не присутствуете в чате, то можете получить приглашение \
 здесь - https://www.fuzzwork.co.uk/tweetfleet-slack-invites/"""
-zh = ""
+zh = """
+该软件因出错次数太多暂时被 ESI 屏蔽。如您是该软件用户，请向软件开发者寻求帮助。\
+如您是软件开发者，请使用正确的错误处理方式以避免发生该问题。欲知详情请到位于 slack tweetfleet \
+团队的 #esi 频道。如您未加入该团队请访问 https://www.fuzzwork.co.uk/tweetfleet-slack-invites/ \
+以获得邀请。"""
 
 [ErrorWrite]
 # ErrorWrite is used if we fail to write the response body
@@ -56,7 +62,7 @@ en-us = "failed to write response"
 fr = ""
 ja = ""
 ru = "Невозможно отобразить ответ"
-zh = ""
+zh = "输出返回内容失败"
 
 [ErrorTimeout]
 # ErrorTimeout is returned when the endpoint fails to respond
@@ -65,7 +71,7 @@ en-us = "timeout contacting endpoint"
 fr = ""
 ja = ""
 ru = "Истечение времени ответа"
-zh = ""
+zh = "联系接口超时"
 
 [ErrorNoAuth]
 # ErrorNoAuth is used for 401 responses
@@ -74,7 +80,7 @@ en-us = "authorization not provided"
 fr = ""
 ja = ""
 ru = "Не пройдена авторизация"
-zh = ""
+zh = "未提供身份验证信息"
 
 [ErrorAuth]
 # ErrorAuth is used in SSO communication failures
@@ -83,7 +89,7 @@ en-us = "authentication failure"
 fr = ""
 ja = ""
 ru = "Ошибка аутентификации"
-zh = ""
+zh = "身份验证失败"
 
 [ErrorDatasource]
 # ErrorDatasource is used when an unknown datasource is requested
@@ -92,7 +98,7 @@ en-us = "unknown datasource requested"
 fr = ""
 ja = ""
 ru = "Запрошен неизвестный источник данных"
-zh = ""
+zh = "请求了未知数据源"
 
 [ErrorSSOJSON]
 # ErrorSSOJSON is used in the edge case where SSO returns non-JSON
@@ -101,7 +107,7 @@ en-us = "SSO JSON failure"
 fr = ""
 ja = ""
 ru = "Ошибка SSO JSON"
-zh = ""
+zh = "SSO JSON 错误"
 
 [ErrorRead]
 # ErrorRead is used if we fail to read the incoming request body
@@ -110,7 +116,7 @@ en-us = "failed to read request body"
 fr = ""
 ja = ""
 ru = "Ошибка чтения запроса"
-zh = ""
+zh = "读取请求正文失败"
 
 [ErrorCreate]
 # ErrorCreate is used if we fail to create a proxy request
@@ -119,7 +125,7 @@ en-us = "failed to create http request"
 fr = ""
 ja = ""
 ru = "Ошибка создания запроса http"
-zh = ""
+zh = "建立 HTTP 请求失败"
 
 [ErrorProxy]
 # ErrorProxy is the catch-all error returned for unknown proxy failures
@@ -128,7 +134,7 @@ en-us = "failed to proxy request"
 fr = ""
 ja = ""
 ru = "Ошибка proxy-запроса"
-zh = ""
+zh = "请求代理失败"
 
 [ErrorReadResponse]
 # ErrorReadResponse is used if we fail to read the proxy response body
@@ -137,7 +143,7 @@ en-us = "failed to read proxy body"
 fr = ""
 ja = ""
 ru = "Ошибка чтения proxy-запроса"
-zh = ""
+zh = "读取代理返回正文失败"
 
 [ErrorNotFound]
 # ErrorNotFound is the generic 404 response text
@@ -146,7 +152,7 @@ en-us = "Not found"
 fr = ""
 ja = ""
 ru = "Не обнаружено (ошибка 404)"
-zh = ""
+zh = "未找到"
 
 [ErrorESIJSON]
 # ErrorESIJSON is used if we fail to dump the meta swagger spec
@@ -155,7 +161,7 @@ en-us = "internal JSON error"
 fr = ""
 ja = ""
 ru = "Внутрення ошибка JSON"
-zh = ""
+zh = "内部 JSON 错误"
 
 [ErrorHeaderParse]
 # ErrorHeaderParse is if we need to and fail to parse a Location header
@@ -164,7 +170,7 @@ en-us = "failed to parse header"
 fr = ""
 ja = ""
 ru = "Ошибка парсинга заголовка"
-zh = ""
+zh = "解析请求头失败"
 
 [ErrorMethod]
 # ErrorMethod is the generic 405 error text
@@ -173,7 +179,7 @@ en-us = "method not allowed"
 fr = ""
 ja = ""
 ru = "Наприменимый метод (ошибка 405)"
-zh = ""
+zh = "方法不被允许"
 
 [ErrorTokenID]
 # ErrorTokenID is used if SSO fails to respond with a character ID
@@ -182,7 +188,7 @@ en-us = "SSO response does not contain a character ID"
 fr = ""
 ja = ""
 ru = "Ответ SSO не содержит ID персонажа"
-zh = ""
+zh = "SSO 返回值不含角色ID"
 
 [ErrorTokenTime]
 # ErrorTokenTime is used if we fail to parse the token expiry time
@@ -191,7 +197,7 @@ en-us = "could not parse auth token expiry time"
 fr = ""
 ja = ""
 ru = ""
-zh = ""
+zh = "认证令牌失效时间无效"
 
 [ErrorRequestSSO]
 # ErrorRequestSSO is used for generic SSO request failures (not timeouts)
@@ -200,7 +206,7 @@ en-us = "SSO request error"
 fr = ""
 ja = ""
 ru = ""
-zh = ""
+zh = "SSO 请求错误"
 
 [ErrorCreateSSO]
 # ErrorCreateSSO is used if we fail to create the request for SSO
@@ -209,7 +215,7 @@ en-us = "failed to create SSO http request"
 fr = ""
 ja = ""
 ru = ""
-zh = ""
+zh = "建立 SSO HTTP 请求失败"
 
 [ErrorTimeoutSSO]
 # ErrorTimeoutSSO is used for SSO request timeouts
@@ -218,7 +224,7 @@ en-us = "SSO request timeout"
 fr = ""
 ja = ""
 ru = ""
-zh = ""
+zh = "SSO 请求超时"
 
 [ErrorReadSSO]
 # ErrorReadSSO is if we fail to read the SSO response body
@@ -227,4 +233,4 @@ en-us = "failed to read SSO response body"
 fr = ""
 ja = ""
 ru = ""
-zh = ""
+zh = "读取 SSO 返回内容失败"
