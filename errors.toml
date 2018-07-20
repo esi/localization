@@ -201,7 +201,7 @@ zh = "SSO 返回值不含角色ID"
 
 [ErrorTokenTime]
 # ErrorTokenTime is used if we fail to parse the token expiry time
-de = ""
+de = "verfallszeit des authentifizierungstoken konnte nicht analysiert werden"
 en-us = "could not parse auth token expiry time"
 fr = ""
 ja = "認証トークンの期限時間がパース出来ませんでした"
