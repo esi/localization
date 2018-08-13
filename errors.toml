@@ -11,9 +11,9 @@ with us in #esi on tweetfleet slack and we can work to avoid this \
 situation in the future. If you're not on tweetfleet slack yet, you can \
 get an invite here -> https://www.fuzzwork.co.uk/tweetfleet-slack-invites/"""
 fr = """
-Vous avez été bannis d'accès à ESI . Vous êtes invité à venir en parler \
-avec nous sur le channel #esi sur le slack tweetfleet afin que nous puissions collaborer pour \
-éviter que cette situation se reproduise. Si vous ne faites pas partie du slack tweetfleet, \
+Vous avez été bannis d'accès à ESI . Vous êtes invité à venir en discuter \
+avec nous sur le channel #esi sur le slack tweetfleet afin de travailler avec nous pour \
+éviter que cette situation se reproduise. Si vous n'êtes pas encore présent sur le slack tweetfleet, \
 vous pouvez recevoir une invitation ici -> https://www.fuzzwork.co.uk/tweetfleet-slack-invites/"""
 ja = """
 あなたはESIの利用をBANされています。今後この問題を回避するために \
@@ -50,8 +50,8 @@ fr = """
 Ce programme est au-dessus de la limite d'erreur pour ESI. Si \
 vous êtes un utilisateur, vous êtes priés de contacter le developeur \
 de ce logiciel.  Si vous êtes un developeur, vous êtes priés de prêter plus d'attention \
-à recevoir des réponses valides. Pour tout conseil, venez parler avec nous \
-sur le channel #esi sur le slack tweetfleet. Si vous n'êtes pas sur le slack tweetfleet,  \
+à recevoir des réponses valides. Pour tout conseil, venez en discuter avec nous \
+sur le channel #esi sur le slack tweetfleet. Si vous n'êtes pas encore présent sur le slack tweetfleet, \
 vous pouvez recevoir une invitation ici -> https://www.fuzzwork.co.uk/tweetfleet-slack-invites/"""
 ja = """
 このソフトウェアに対するESIのエラーリミットが超過しています。 \
@@ -165,7 +165,7 @@ ru = "Ошибка чтения proxy-запроса"
 zh = "读取代理返回正文失败"
 
 [ErrorNotFound]
-# ErrorNotFound is the generic 404 response text
+# ErrorNotFound is the generic 404 response textparler
 de = "nicht gefunden"
 en-us = "Not found"
 fr = "Introuvable"
