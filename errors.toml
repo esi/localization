@@ -165,7 +165,7 @@ ru = "Ошибка чтения proxy-запроса"
 zh = "读取代理返回正文失败"
 
 [ErrorNotFound]
-# ErrorNotFound is the generic 404 response textparler
+# ErrorNotFound is the generic 404 response text
 de = "nicht gefunden"
 en-us = "Not found"
 fr = "Introuvable"
