@@ -126,7 +126,7 @@ func buildErrorsGo(e Errors) {
 
 			value := tval.Field(i).Interface().(string)
 
-			if utf8.RuneCountInString(value) <= 70 {
+			if utf8.RuneCountInString(value) <= 60 {
 				fmt.Printf(
 					"\t\t%q: %q,\n",
 					lang,
@@ -138,7 +138,7 @@ func buildErrorsGo(e Errors) {
 				buffer := fmt.Sprintf("\t\t%q: \"%s", lang, valSplit[0])
 
 				for _, word := range valSplit[1:] {
-					if utf8.RuneCountInString(buffer)+utf8.RuneCountInString(word) > 70 {
+					if utf8.RuneCountInString(buffer)+utf8.RuneCountInString(word) > 60 {
 						fmt.Printf("%s \" +\n", buffer)
 						buffer = fmt.Sprintf("\t\t\t\"%s", word)
 					} else {
