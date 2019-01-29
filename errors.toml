@@ -10,6 +10,11 @@ You have been banned from using ESI. Please come chat \
 with us in #esi on tweetfleet slack and we can work to avoid this \
 situation in the future. If you're not on tweetfleet slack yet, you can \
 get an invite here -> https://www.fuzzwork.co.uk/tweetfleet-slack-invites/"""
+es-es = """
+Se le ha prohibido el uso de ESI. Por favor chatee \
+con nosotros en #esi en tweetfleet y podemos trabajar para evitar \
+esta situación en el futuro. Si no está en slack de tweetfleet, \
+puede obtener una invitación aquí -> https://www.fuzzwork.co.uk/tweetfleet-slack-invites/"""
 fr = """
 Vous avez été bannis d'accès à ESI . Vous êtes invité à venir en discuter \
 avec nous sur le channel #esi sur le slack tweetfleet afin de travailler avec nous pour \
@@ -46,6 +51,13 @@ future to receive valid responses. For tips on how, come have a chat \
 with us in #esi on tweetfleet slack. If you're not on tweetfleet \
 slack yet, you can get an invite here -> \
 https://www.fuzzwork.co.uk/tweetfleet-slack-invites/"""
+es-es = """
+Este software ha superado el límite de error para ESI. Si \
+usted es un usuario, póngase en contacto con el desarrollador de este software. Si \
+usted es un desarrollador / mantenedor, por favor haga un mayor esfuerzo en el \
+futuro para recibir respuestas válidas. Para consejos sobre cómo hacerlo, chatee \
+con nosotros en #esi en tweetfleet Slack. Si no está en tweetfleet \, puede obtener una invitación aquí -> \
+https://www.fuzzwork.co.uk/tweetfleet-slack-invites/"""
 fr = """
 Ce programme est au-dessus de la limite d'erreur pour ESI. Si \
 vous êtes un utilisateur, vous êtes priés de contacter le developeur \
@@ -78,6 +90,7 @@ zh = """
 # ErrorWrite is used if we fail to write the response body
 de = "fehler schreiben der antwort"
 en-us = "failed to write response"
+es-es = "no pudo escribir la respuesta"
 fr = "Échec de l'écriture de la réponse"
 ja = "レスポンスの出力に失敗しました"
 ru = "Невозможно записать ответ"
@@ -87,6 +100,7 @@ zh = "输出返回内容失败"
 # ErrorTimeout is returned when the endpoint fails to respond
 de = "timeout beim kontaktieren des endpunkts"
 en-us = "timeout contacting endpoint"
+es-es = "tiempo de espera de contacto"
 fr = "Connexion interrompue après le délai"
 ja = "エンドポイントへの接続がタイムアウトしました"
 ru = "Истечение времени ответа"
@@ -96,6 +110,7 @@ zh = "联系接口超时"
 # ErrorNoAuth is used for 401 responses
 de = "authorisation nicht zur verfügung gestellt"
 en-us = "authorization not provided"
+es-es = "autorización no proporcionada"
 fr = "Authorisation manquante"
 ja = "認可情報が含まれていません"
 ru = "Не пройдена авторизация"
@@ -105,6 +120,7 @@ zh = "未提供身份验证信息"
 # ErrorAuth is used in SSO communication failures
 de = "authentifizierungsfehler"
 en-us = "authentication failure"
+es-es = "fallo de autentificacion"
 fr = "Erreur d'authentification"
 ja = "認証に失敗しました"
 ru = "Ошибка аутентификации"
@@ -114,6 +130,7 @@ zh = "身份验证失败"
 # ErrorDatasource is used when an unknown datasource is requested
 de = "unbekannte datenquelle angefordert"
 en-us = "unknown datasource requested"
+es-es = "fuente de datos desconocida solicitada"
 fr = "Source de données demandée inconnue "
 ja = "不明なデータソースがリクエストされました"
 ru = "Запрошен неизвестный источник данных"
@@ -123,6 +140,7 @@ zh = "请求了未知数据源"
 # ErrorSSOJSON is used in the edge case where SSO returns non-JSON
 de = "SSO JSON fehler"
 en-us = "SSO JSON failure"
+es-es = "fallo de SSO JSON"
 fr = "SSO JSON erreur"
 ja = "SSO JSONエラー"
 ru = "Ошибка SSO JSON"
@@ -132,6 +150,7 @@ zh = "SSO JSON 错误"
 # ErrorRead is used if we fail to read the incoming request body
 de = "fehler beim lesen des angefragten bodies"
 en-us = "failed to read request body"
+es-es = "no se pudo leer el cuerpo de la solicitud"
 fr = "Échec de la lecture du corps de la requête"
 ja = "リクエストボディの読み込みに失敗しました"
 ru = "Ошибка чтения запроса"
@@ -141,6 +160,7 @@ zh = "读取请求正文失败"
 # ErrorCreate is used if we fail to create a proxy request
 de = "fehler beim erstellen der http anfrage"
 en-us = "failed to create http request"
+es-es = "no se pudo crear la solicitud http"
 fr = "Échec de la création de la requête http"
 ja = "httpリクエストの生成に失敗しました"
 ru = "Ошибка создания запроса http"
@@ -150,6 +170,7 @@ zh = "建立 HTTP 请求失败"
 # ErrorProxy is the catch-all error returned for unknown proxy failures
 de = "fehler bei proxy anfrage"
 en-us = "failed to proxy request"
+es-es = "no se pudo realizar la solicitud proxy"
 fr = "Échec de proxy de la requête"
 ja = "proxyリクエストに失敗しました"
 ru = "Ошибка proxy-запроса"
@@ -159,6 +180,7 @@ zh = "请求代理失败"
 # ErrorReadResponse is used if we fail to read the proxy response body
 de = "fehler beim lesen des proxy bodies"
 en-us = "failed to read proxy body"
+es-es = "no se pudo leer el cuerpo del proxy"
 fr = "Échec de la lecture du corps de la réponse du proxy"
 ja = "proxyレスポンスボディの読み込みに失敗しました"
 ru = "Ошибка чтения proxy-запроса"
@@ -168,6 +190,7 @@ zh = "读取代理返回正文失败"
 # ErrorNotFound is the generic 404 response text
 de = "nicht gefunden"
 en-us = "Not found"
+es-es = "Extraviado"
 fr = "Introuvable"
 ja = "存在しません"
 ru = "Не обнаружено (ошибка 404)"
@@ -177,6 +200,7 @@ zh = "未找到"
 # ErrorESIJSON is used if we fail to dump the meta swagger spec
 de = "interner JSON fehler"
 en-us = "internal JSON error"
+es-es = "error interno de JSON"
 fr = "Erreur JSON interne"
 ja = "内部JSONエラー"
 ru = "Внутренняя ошибка JSON"
@@ -186,6 +210,7 @@ zh = "内部 JSON 错误"
 # ErrorHeaderParse is if we need to and fail to parse a Location header
 de = "fehler beim analysieren des headers"
 en-us = "failed to parse header"
+es-es = "no se pudo analizar el encabezado"
 fr = "Échec de l'analyse des en-têtes"
 ja = "ヘッダーのパースに失敗しました"
 ru = "Ошибка парсинга заголовка"
@@ -195,6 +220,7 @@ zh = "解析请求头失败"
 # ErrorMethod is the generic 405 error text
 de = "methode nicht erlaubt"
 en-us = "method not allowed"
+es-es = "Método no permitido"
 fr = "Méthode non authorisée"
 ja = "このメソッドは許可されていません"
 ru = "Неприменимый метод (ошибка 405)"
@@ -204,6 +230,7 @@ zh = "方法不被允许"
 # ErrorTokenID is used if SSO fails to respond with a character ID
 de = "SSO antwort enthält keine charakter ID"
 en-us = "SSO response does not contain a character ID"
+es-es = "La respuesta de SSO no contiene un ID de carácter"
 fr = "La réponse SSO ne contient pas d'ID de personages"
 ja = "SSOレスポンスにキャラクターIDが含まれていません"
 ru = "Ответ SSO не содержит ID персонажа"
@@ -213,6 +240,7 @@ zh = "SSO 返回值不含角色ID"
 # ErrorTokenTime is used if we fail to parse the token expiry time
 de = "verfallszeit des authentifizierungstoken konnte nicht analysiert werden"
 en-us = "could not parse auth token expiry time"
+es-es = "no se pudo analizar el tiempo de caducidad del token de autenticación"
 fr = "Échec de l'analyse de la date d'expiration du token d'authentification"
 ja = "認証トークンの期限時間がパース出来ませんでした"
 ru = "Не удалось обработать время окончания токена аутентификации"
@@ -222,6 +250,7 @@ zh = "认证令牌失效时间无效"
 # ErrorRequestSSO is used for generic SSO request failures (not timeouts)
 de = "fehler bei der SSO anfrage"
 en-us = "SSO request error"
+es-es = "Error de solicitud de SSO"
 fr = "Échec de la requête SSO"
 ja = "SSOリクエストエラー"
 ru = "Ошибка запроса SSO"
@@ -231,6 +260,7 @@ zh = "SSO 请求错误"
 # ErrorCreateSSO is used if we fail to create the request for SSO
 de = "fehler beim erstellen der SSO http anforderung"
 en-us = "failed to create SSO http request"
+es-es = "no se pudo crear la solicitud http de SSO"
 fr = "Échec de création de la requête http pour SSO"
 ja = "SSO http requestの生成に失敗しました"
 ru = "Не удалось создать http-запрос SSO"
@@ -240,6 +270,7 @@ zh = "建立 SSO HTTP 请求失败"
 # ErrorTimeoutSSO is used for SSO request timeouts
 de = "timeout der SSO anfrage"
 en-us = "SSO request timeout"
+es-es = "Tiempo de espera de solicitud de SSO"
 fr = "Connexion SSO interrompue après le délai"
 ja = "SSOリクエストがタイムアウトしました"
 ru = "Истечение времени запроса SSO"
@@ -249,6 +280,7 @@ zh = "SSO 请求超时"
 # ErrorReadSSO is if we fail to read the SSO response body
 de = "fehler beim lesen des SSO antwort-bodies"
 en-us = "failed to read SSO response body"
+es-es = "Error al leer el cuerpo de respuesta de SSO"
 fr = "Échec de la lecture du corps de la réponse SSO"
 ja = "SSOレスポンスボディの読み込みに失敗しました"
 ru = "Ошибка чтения ответа SSO"
