@@ -56,7 +56,8 @@ Este software ha superado el límite de error para ESI. Si \
 usted es un usuario, póngase en contacto con el desarrollador de este software. Si \
 usted es un desarrollador / mantenedor, por favor haga un mayor esfuerzo en el \
 futuro para recibir respuestas válidas. Para consejos sobre cómo hacerlo, chatee \
-con nosotros en #esi en tweetfleet Slack. Si no está en tweetfleet \, puede obtener una invitación aquí -> \
+con nosotros en #esi en tweetfleet Slack. Si no está en tweetfleet, \
+puede obtener una invitación aquí -> \
 https://www.fuzzwork.co.uk/tweetfleet-slack-invites/"""
 fr = """
 Ce programme est au-dessus de la limite d'erreur pour ESI. Si \
@@ -241,7 +242,7 @@ zh = "SSO 返回值不含角色ID"
 de = "verfallszeit des authentifizierungstoken konnte nicht analysiert werden"
 en-us = "could not parse auth token expiry time"
 es-es = "no se pudo analizar el tiempo de caducidad del token de autenticación"
-fr = "Échec de l'analyse de la date d'expiration du token d'authentification"
+fr = "Échec de l'analyse de la date d'expiration du token d'autentificación"
 ja = "認証トークンの期限時間がパース出来ませんでした"
 ru = "Не удалось обработать время окончания токена аутентификации"
 zh = "认证令牌失效时间无效"
