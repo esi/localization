@@ -31,6 +31,7 @@ type TranslatedError struct {
 	Comment string `toml:"comment"`
 	De      string `toml:"de"`
 	EnUS    string `toml:"en-us"`
+	EsES    string `toml:"es-es"`
 	Fr      string `toml:"fr"`
 	Ja      string `toml:"ja"`
 	Ru      string `toml:"ru"`
